@@ -1,0 +1,35 @@
+#main-container {
+  text-align: center;
+}
+
+#main-container div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.route-bt {
+  background-color: #eae0c2;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  width: 200px;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.route-bt:hover {
+  background-color: #ccc2a6;
+}
+
+.route-bt:active {
+  position: relative;
+  top: 1px;
+}
